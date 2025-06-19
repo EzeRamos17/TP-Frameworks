@@ -12,7 +12,7 @@ public class AccionMultiplicar implements Accion {
         System.out.print("Ingrese el segundo número: ");
         int b = scanner.nextInt();
         System.out.println("El producto es: " + (a * b));
-        scanner.nextLine(); // Limpiar buffer
+        scanner.nextLine();
     }
 
     @Override

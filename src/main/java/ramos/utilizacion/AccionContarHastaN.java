@@ -14,7 +14,7 @@ public class AccionContarHastaN implements Accion {
             System.out.print(i + " ");
         }
         System.out.println();
-        scanner.nextLine(); // Limpiar buffer
+        scanner.nextLine();
     }
 
     @Override

@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class MenuFramework {
     private List<Accion> acciones = new ArrayList<>();
 
-    // Carga las acciones desde el archivo de configuración
     public void cargarAcciones(String pathConfig) throws Exception {
         try (BufferedReader br = new BufferedReader(new FileReader(pathConfig))) {
             String linea;
@@ -29,7 +28,6 @@ public class MenuFramework {
         }
     }
 
-    // Muestra el menú y gestiona el ciclo principal
     public void ejecutar() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
